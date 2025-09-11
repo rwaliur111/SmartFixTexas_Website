@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFixTexas - Plumbing, HVAC, & Electrical Services in Austin, TX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #f0f4f8;
+        }
+        .brand-blue {
+            color: #1e3a8a; /* A deep, trustworthy blue */
+        }
+        .brand-green {
+            color: #65a30d; /* A vibrant, smart green */
+        }
+        .bg-brand-blue {
+            background-color: #1e3a8a;
+        }
+        .bg-brand-green {
+            background-color: #65a30d;
+        }
+        .border-brand-green {
+            border-color: #65a30d;
+        }
+        .hover-bg-brand-green-dark:hover {
+            background-color: #4d7c0f;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header & Logo -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Placeholder for the chosen logo -->
+                <div class="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center text-white font-bold text-xl">
+                    SFT
+                </div>
+                <h1 class="text-2xl font-bold brand-blue">SmartFix<span class="brand-green">Texas</span></h1>
+            </div>
+            <a href="#contact" class="hidden md:inline-block bg-brand-green text-white font-bold py-2 px-6 rounded-lg shadow-lg hover-bg-brand-green-dark transition duration-300">
+                Get a Free Quote
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold brand-blue leading-tight mb-4">Smart Solutions. Fixed Right.</h2>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Your trusted Austin experts for all Plumbing, HVAC, and Electrical needs. We're Texas strong and committed to quality service.</p>
+            <a href="#contact" class="bg-brand-green text-white font-bold py-4 px-10 rounded-lg shadow-xl text-lg hover-bg-brand-green-dark transition duration-300">
+                Schedule Service Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center brand-blue mb-2">Our Core Services</h3>
+            <p class="text-center text-gray-600 mb-12">One call to SmartFixTexas handles it all.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Plumbing Service Card -->
+                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-brand-green text-center">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-2.236 9.168-5.514C18.358 1.84 18.67 1.177 18.872 1H12v3.822h1.832a4.001 4.001 0 013.708 2.868M10 15a5 5 0 100-10 5 5 0 000 10z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold brand-blue mb-3">Plumbing</h4>
+                    <p class="text-gray-600">From leaky faucets and clogged drains to water heater installations and full re-piping, our licensed plumbers ensure your water flows perfectly.</p>
+                </div>
+
+                <!-- HVAC Service Card -->
+                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-brand-green text-center">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold brand-blue mb-3">HVAC</h4>
+                    <p class="text-gray-600">Stay cool during the Texas heat and warm in the winter. We offer expert AC & furnace repair, maintenance, and new system installations.</p>
+                </div>
+
+                <!-- Electrical Service Card -->
+                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-brand-green text-center">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold brand-blue mb-3">Electrical</h4>
+                    <p class="text-gray-600">Safety and reliability are paramount. Our certified electricians handle everything from panel upgrades and wiring to lighting installation and safety inspections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="hero-bg py-20">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-center brand-blue mb-12">Why Austin Trusts SmartFixTexas</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div class="feature">
+                    <div class="bg-brand-green text-white rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-4">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2 brand-blue">Licensed & Insured</h4>
+                    <p class="text-gray-600">Complete peace of mind knowing you're working with qualified, professional technicians.</p>
+                </div>
+                <div class="feature">
+                    <div class="bg-brand-green text-white rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01" /></svg>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2 brand-blue">Upfront Pricing</h4>
+                    <p class="text-gray-600">No surprises or hidden fees. We provide clear, honest quotes before any work begins.</p>
+                </div>
+                <div class="feature">
+                    <div class="bg-brand-green text-white rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2 brand-blue">24/7 Emergency Service</h4>
+                    <p class="text-gray-600">Problems don't wait for business hours, and neither do we. We're here for you day and night.</p>
+                </div>
+                <div class="feature">
+                    <div class="bg-brand-green text-white rounded-full h-16 w-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2 brand-blue">Local Texas Experts</h4>
+                    <p class="text-gray-600">We know the specific challenges of Texas homes. We're your neighbors, proud to serve our community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-lg shadow-xl p-8 md:p-12 lg:flex lg:items-center lg:gap-12">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl font-bold brand-blue mb-4">Get a Free, No-Obligation Quote</h3>
+                    <p class="text-gray-600 mb-6">Have a project in mind or an urgent repair? Fill out the form and one of our friendly experts will get back to you right away. For emergencies, please call us directly!</p>
+                     <p class="text-gray-700 font-bold text-lg">
+                        <span class="brand-green">Call Us 24/7:</span> (512) 555-0123
+                    </p>
+                    <p class="mt-2 text-gray-700">
+                        <span class="font-bold">Service Area:</span> Austin, Round Rock, Cedar Park, & surrounding areas.
+                    </p>
+                </div>
+                <div class="lg:w-1/2 mt-8 lg:mt-0">
+                    <form action="#" method="POST" class="space-y-4">
+                        <div>
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-green" required>
+                        </div>
+                        <div>
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-green" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="sr-only">Phone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-green" required>
+                        </div>
+                        <div>
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea name="message" id="message" rows="4" placeholder="How can we help you today?" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-green" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-green text-white font-bold py-3 px-6 rounded-lg shadow-lg hover-bg-brand-green-dark transition duration-300">Request My Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-blue text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 SmartFixTexas. All Rights Reserved.</p>
+            <p class="text-sm text-gray-300 mt-1">Proudly Serving the Greater Austin Area.</p>
+            <!-- Add social media links here when ready -->
+        </div>
+    </footer>
+
+</body>
+</html>
